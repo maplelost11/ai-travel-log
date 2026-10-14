@@ -1,0 +1,949 @@
+{
+  "geocode": {
+    "status": "1",
+    "info": "OK",
+    "infocode": "10000",
+    "count": "1",
+    "geocodes": [
+      {
+        "formatted_address": "广东省深圳市南山区莫高窟",
+        "country": "中国",
+        "province": "广东省",
+        "citycode": "0755",
+        "city": "深圳市",
+        "district": "南山区",
+        "township": [],
+        "neighborhood": {
+          "name": [],
+          "type": []
+        },
+        "building": {
+          "name": [],
+          "type": []
+        },
+        "adcode": "440305",
+        "street": [],
+        "number": [],
+        "location": "113.989802,22.531209",
+        "level": "兴趣点"
+      }
+    ]
+  },
+  "poiSearch": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "272",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "pcode": "620000",
+        "keytag": "5A景区",
+        "type": "风景名胜;风景名胜;国家级景点",
+        "photos": [
+          {
+            "provider": [],
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/c0b47f7ddb350d99e72a280fa2628aaa"
+          },
+          {
+            "provider": [],
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/8be3802ed415b978221fc5028b0e1cdd"
+          },
+          {
+            "provider": [],
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/a086b5563455bc131b8ce10b5f6c7425"
+          }
+        ],
+        "building": [],
+        "typecode": "110202",
+        "poiweight": [],
+        "citycode": "0937",
+        "adname": "敦煌市",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "0937-8883388",
+        "id": "B03A9000ZN",
+        "tag": [],
+        "entr_location": "94.67553,40.097543",
+        "adcode": "620982",
+        "pname": "甘肃省",
+        "biz_type": "tour",
+        "cityname": "酒泉市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": [],
+        "atag": [],
+        "name": "鸣沙山月牙泉",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "K46F047038_5071;1111",
+        "distance": [],
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 07:00-19:00",
+          "rating": "4.9",
+          "open_time": "07:00-19:00",
+          "ticket_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "NE060094150420",
+        "shopinfo": "2",
+        "alias": "药泉",
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-04-21 20:26:05",
+        "website": "www.mssyyq.cn",
+        "address": "鸣山路",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "94.680396,40.088833",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "620000",
+        "keytag": "世界文化遗产",
+        "type": "风景名胜;风景名胜;世界遗产",
+        "photos": [
+          {
+            "provider": [],
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/99713761573dc8264502f9af585f229e"
+          },
+          {
+            "provider": [],
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/08db81834ebb3a632d8844756280156c"
+          },
+          {
+            "provider": [],
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/cd8750bf6a206f80e177617c7e15be21"
+          }
+        ],
+        "building": [],
+        "typecode": "110201",
+        "poiweight": [],
+        "citycode": "0937",
+        "adname": "敦煌市",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "4008333715",
+        "id": "B03A900102",
+        "tag": [],
+        "entr_location": "94.766249,40.163002",
+        "adcode": "620982",
+        "pname": "甘肃省",
+        "biz_type": "tour",
+        "cityname": "酒泉市",
+        "postcode": "736200",
+        "business_area": [],
+        "childtype": [],
+        "atag": [],
+        "name": "莫高窟景区",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "K46F048039_4",
+        "distance": [],
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 08:00-18:00",
+          "rating": "4.8",
+          "open_time": "08:00-18:00",
+          "ticket_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "NE060094065402",
+        "shopinfo": "2",
+        "alias": "敦煌莫高窟",
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-04-21 20:26:03",
+        "website": "www.mogaoku.net",
+        "address": "314省道太阳温泉酒店13.6公里处",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "94.809374,40.042511",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "620000",
+        "keytag": "文物古迹",
+        "type": "风景名胜;风景名胜;风景名胜",
+        "photos": [
+          {
+            "provider": [],
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/fee9a97e1a8535657ab76dc74813ba3d"
+          },
+          {
+            "provider": [],
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/c921cdc5ed5b68dbd22c0aadbc772be8"
+          },
+          {
+            "provider": [],
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/94f865ccca33ffd60ac370bc42ed1660"
+          }
+        ],
+        "building": [],
+        "typecode": "110200",
+        "poiweight": [],
+        "citycode": "0937",
+        "adname": "敦煌市",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "0937-6951018",
+        "id": "B0FFI8LJUP",
+        "tag": [],
+        "entr_location": "93.865869,40.34836",
+        "adcode": "620982",
+        "pname": "甘肃省",
+        "biz_type": "tour",
+        "cityname": "酒泉市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": [],
+        "atag": [],
+        "name": "阳关玉门关旅游区(玉门关)",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "K46F045032_6",
+        "distance": [],
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "10-10至12-31 周一至周日 07:00-17:30",
+          "rating": "4.7",
+          "open_time": "07:00-17:30",
+          "ticket_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "NE060093372411",
+        "shopinfo": "2",
+        "alias": "玉门关",
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-04-21 04:47:17",
+        "website": [],
+        "address": "地质公园内",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "93.901131,40.307025",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "620000",
+        "keytag": "博物馆",
+        "type": "科教文化服务;博物馆;博物馆",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/ce5ae84d04d0ba9f7f237b866af3e867"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f45c6ba3eeef242cdb118fee5b2623af"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/0451b268a1ad2afdad18d751bae2ce30"
+          }
+        ],
+        "building": [],
+        "typecode": "140100",
+        "poiweight": [],
+        "citycode": "0937",
+        "adname": "敦煌市",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": "0937-8818173",
+        "id": "B03A90008I",
+        "tag": [],
+        "entr_location": "94.662467,40.129107",
+        "adcode": "620982",
+        "pname": "甘肃省",
+        "biz_type": [],
+        "cityname": "酒泉市",
+        "postcode": [],
+        "business_area": "鸣山路",
+        "childtype": [],
+        "atag": [],
+        "name": "敦煌博物馆",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": "K46F047038_27",
+        "distance": [],
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": "周一至周日 09:00-17:00",
+          "rating": "4.7",
+          "open_time": "09:00-17:00"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "NE060094155212",
+        "shopinfo": "0",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-04-21 20:16:30",
+        "website": [],
+        "address": "沙州镇鸣山北路1390号",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "94.661690,40.129241",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "pcode": "620000",
+        "keytag": "石窟",
+        "type": "风景名胜;风景名胜;风景名胜",
+        "photos": [
+          {
+            "provider": [],
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K119RWFW/comment/content_media_external_file_100002481_1765531109937_17332195.jpg"
+          },
+          {
+            "provider": [],
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/e1e8da58532697f80000000735866749?type=pic"
+          },
+          {
+            "provider": [],
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0K119RWFW/comment/content_media_external_file_1000021694_ss__1760614390333_59021573.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "110200",
+        "poiweight": [],
+        "citycode": "0937",
+        "adname": "敦煌市",
+        "children": [],
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0K119RWFW",
+        "tag": [],
+        "entr_location": "94.809306,40.042522",
+        "adcode": "620982",
+        "pname": "甘肃省",
+        "biz_type": "tour",
+        "cityname": "酒泉市",
+        "postcode": [],
+        "business_area": [],
+        "childtype": [],
+        "atag": [],
+        "name": "敦煌",
+        "shopid": [],
+        "favorite_num": [],
+        "navi_poiid": [],
+        "distance": [],
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "opentime2": [],
+          "rating": "4.6",
+          "open_time": [],
+          "ticket_ordering": "0"
+        },
+        "recommend": "0",
+        "discount_num": "0",
+        "gridcode": "NE060094065402",
+        "shopinfo": "2",
+        "alias": [],
+        "event": [],
+        "indoor_map": "0",
+        "email": [],
+        "timestamp": "2026-04-14 19:39:37",
+        "website": [],
+        "address": "敦煌石窟文物保护研究陈列中心北侧200米",
+        "space_num": [],
+        "match": "0",
+        "indoor_data": {
+          "cmsid": [],
+          "truefloor": [],
+          "cpid": [],
+          "floor": []
+        },
+        "exit_location": [],
+        "location": "94.809374,40.042511",
+        "groupbuy_num": "0",
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  },
+  "poiAround": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "21",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": "B03A913IP2",
+        "distance": "127",
+        "keytag": "中餐",
+        "importance": [],
+        "biz_ext": {
+          "cost": [],
+          "star": [],
+          "opentime2": "周一至周日 09:00-22:00",
+          "rating": "4.5",
+          "lowest_price": [],
+          "hotel_ordering": "0",
+          "open_time": "09:00-22:00",
+          "meal_ordering": "0"
+        },
+        "type": "住宿服务;宾馆酒店;宾馆酒店|餐饮服务;中餐厅;中餐厅",
+        "photos": [
+          {
+            "provider": [],
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/1949d11199bfe5bf39ea80097d036cc5"
+          },
+          {
+            "provider": [],
+            "title": [],
+            "url": "https://aos-comment.amap.com/B03A90I1PI/comment/228FC318_968E_4BC6_A1A8_EAD0213D34E6_L0_001_1301_814_1727525968623_53614943.jpg"
+          },
+          {
+            "provider": [],
+            "title": [],
+            "url": "https://aos-comment.amap.com/B03A90I1PI/comment/8ab3b907549145337b4485952cde6fdd_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "100100|050100",
+        "shopinfo": "1",
+        "poiweight": [],
+        "adname": "敦煌市",
+        "featured_reviews_remake": [],
+        "tel": "0937-8822865",
+        "id": "B03A90I1PI",
+        "address": "沙洲镇鸣山路5号",
+        "space_num": [],
+        "pname": "甘肃省",
+        "biz_type": "hotel",
+        "cityname": "酒泉市",
+        "childtype": "324",
+        "atag": "小吃街,特色菜",
+        "name": "驼铃餐厅",
+        "location": "94.661923,40.140515",
+        "shopid": [],
+        "favorite_num": [],
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "distance": "258",
+        "keytag": "西北菜",
+        "importance": [],
+        "biz_ext": {
+          "cost": "66.00",
+          "opentime2": "周一至周日 11:00-15:00,17:00-22:30 2026-02-10至2026-03-03 周一至周日 全天关闭",
+          "rating": "4.8",
+          "open_time": "11:00-15:00 17:00-22:30",
+          "meal_ordering": "0"
+        },
+        "type": "餐饮服务;中餐厅;中餐厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFF4S8XL/comment/7D66D13E_9E67_42B7_A84E_71FA7E8030DC_L0_001_1500_200_1751095250098_59905815.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFF4S8XL/comment/content_media_external_file_1000004965_ss__1759204410705_27278475.jpg"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFF4S8XL/comment/content_media_external_file_1000012600_ss__1758690783319_78533742.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050100",
+        "shopinfo": "0",
+        "poiweight": [],
+        "adname": "敦煌市",
+        "featured_reviews_remake": [],
+        "tel": "13830716008;13893773331",
+        "id": "B0FFF4S8XL",
+        "address": "北台巷沙州乐园东门口隔壁",
+        "space_num": [],
+        "pname": "甘肃省",
+        "biz_type": "diner",
+        "cityname": "酒泉市",
+        "childtype": [],
+        "atag": "木耳炒蛋,面片汤,清口笋丝,清炖羊肉,孜然羊排,白条羊肉,杏皮水,羊羔肉,羊肝,白条皮,蒜蓉油麦菜,白切羊羔肉,羊肚,馍馍,干粮,羊肉",
+        "name": "靖远尕六美味羊羔肉",
+        "location": "94.663206,40.143835",
+        "shopid": [],
+        "favorite_num": [],
+        "featured_reviews": []
+      },
+      {
+        "parent": "B03A913IP2",
+        "distance": "271",
+        "keytag": "西北菜",
+        "importance": [],
+        "biz_ext": {
+          "cost": "56.00",
+          "opentime2": "周一至周日 10:00-24:00",
+          "rating": "4.7",
+          "open_time": "10:00-24:00",
+          "meal_ordering": "0"
+        },
+        "type": "餐饮服务;中餐厅;中餐厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/ee40ed755b35b560e1625833fd73e976"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/f4a28964c887ddfc06292e07b8c15ae5"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/28fe7803518ccdc5378f18dfd6a2f83f"
+          }
+        ],
+        "building": [],
+        "typecode": "050100",
+        "shopinfo": "0",
+        "poiweight": [],
+        "adname": "敦煌市",
+        "featured_reviews_remake": [],
+        "tel": "18793739961;18893278407",
+        "id": "B0FFG93TDL",
+        "address": "市场巷356号",
+        "space_num": [],
+        "pname": "甘肃省",
+        "biz_type": "diner",
+        "cityname": "酒泉市",
+        "childtype": "324",
+        "atag": "108度沸腾鱼,胡羊焖饼,手抓羊羔肉,浇给羊头,脆皮茄子,牛肉沙葱卷,羊肉,双人餐,单人餐",
+        "name": "国辉胡羊焖饼",
+        "location": "94.661597,40.139239",
+        "shopid": [],
+        "favorite_num": [],
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "distance": "396",
+        "keytag": "中餐",
+        "importance": [],
+        "biz_ext": {
+          "cost": "43.00",
+          "opentime2": "周一至周日 10:00-22:00",
+          "rating": "3.9",
+          "open_time": "10:00-22:00",
+          "meal_ordering": "0"
+        },
+        "type": "餐饮服务;中餐厅;中餐厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/4faac1c8ba300d46b4d50e8626aadfb7"
+          },
+          {
+            "title": [],
+            "url": "http://store.is.autonavi.com/showpic/8f1fa48b7e63c82d828c2d1537b0f390"
+          }
+        ],
+        "building": [],
+        "typecode": "050100",
+        "shopinfo": "1",
+        "poiweight": [],
+        "adname": "敦煌市",
+        "featured_reviews_remake": [],
+        "tel": "17793729778",
+        "id": "B0FFFXTZUC",
+        "address": "寿昌北路名吃广场78号(由西到东第一家)",
+        "space_num": [],
+        "pname": "甘肃省",
+        "biz_type": "diner",
+        "cityname": "酒泉市",
+        "childtype": [],
+        "atag": "糖醋里脊",
+        "name": "四川永乐餐厅",
+        "location": "94.666930,40.140766",
+        "shopid": [],
+        "favorite_num": [],
+        "featured_reviews": []
+      },
+      {
+        "parent": [],
+        "distance": "415",
+        "keytag": "面馆",
+        "importance": [],
+        "biz_ext": {
+          "cost": "43.00",
+          "opentime2": "周一至周日 09:30-24:00",
+          "rating": "4.3",
+          "open_time": "09:30-24:00",
+          "meal_ordering": "0"
+        },
+        "type": "餐饮服务;中餐厅;中餐厅",
+        "photos": [
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/6f3bee3838e790e5f96289f1d1370742"
+          },
+          {
+            "title": [],
+            "url": "https://store.is.autonavi.com/showpic/d835a003302fcece3288616b28d983bc"
+          },
+          {
+            "title": [],
+            "url": "https://aos-comment.amap.com/B0FFL4KA4Y/comment/4e95b0410ce9ad7b8e8743740c120c56_2048_2048_80.jpg"
+          }
+        ],
+        "building": [],
+        "typecode": "050100",
+        "shopinfo": "0",
+        "poiweight": [],
+        "adname": "敦煌市",
+        "featured_reviews_remake": [],
+        "tel": "18054127189",
+        "id": "B0FFL4KA4Y",
+        "address": "阳关中路沙州夜市名吃广场大红门内82号",
+        "space_num": [],
+        "pname": "甘肃省",
+        "biz_type": "diner",
+        "cityname": "酒泉市",
+        "childtype": [],
+        "atag": "烤羊排,胡羊焖饼,沙葱炒蛋,驴肉黄面,手抓羊肉,羊肉,素菜,双人餐,烤肉,牛肉",
+        "name": "魏记胡羊焖饼·驴肉黄面",
+        "location": "94.667184,40.140842",
+        "shopid": [],
+        "favorite_num": [],
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  },
+  "drivingRoute": {
+    "status": "1",
+    "info": "OK",
+    "infocode": "10000",
+    "count": "2",
+    "route": {
+      "origin": "94.8091,40.0362",
+      "destination": "94.6715,40.0816",
+      "taxi_cost": "39",
+      "paths": [
+        {
+          "distance": "31606",
+          "restriction": "0",
+          "steps": [
+            {
+              "instruction": "向北行驶415米右转",
+              "orientation": "北",
+              "step_distance": "415"
+            },
+            {
+              "instruction": "向东行驶112米向左前方行驶",
+              "orientation": "东",
+              "step_distance": "112"
+            },
+            {
+              "instruction": "沿240省道向北行驶15.1千米左转",
+              "orientation": "北",
+              "road_name": "240省道",
+              "step_distance": "15084"
+            },
+            {
+              "instruction": "沿阳关大道向西行驶3.8千米左转",
+              "orientation": "西",
+              "road_name": "阳关大道",
+              "step_distance": "3793"
+            },
+            {
+              "instruction": "沿景阳路向南行驶583米右转",
+              "orientation": "南",
+              "road_name": "景阳路",
+              "step_distance": "583"
+            },
+            {
+              "instruction": "沿景观大道向西南行驶7.7千米左转",
+              "orientation": "西南",
+              "road_name": "景观大道",
+              "step_distance": "7682"
+            },
+            {
+              "instruction": "沿鸣山南路向南行驶303米右转",
+              "orientation": "南",
+              "road_name": "鸣山南路",
+              "step_distance": "303"
+            },
+            {
+              "instruction": "向西行驶773米左转",
+              "orientation": "西",
+              "step_distance": "773"
+            },
+            {
+              "instruction": "向南行驶501米左转",
+              "orientation": "南",
+              "step_distance": "501"
+            },
+            {
+              "instruction": "向东行驶503米右转",
+              "orientation": "东",
+              "step_distance": "503"
+            },
+            {
+              "instruction": "向东行驶598米右转",
+              "orientation": "东",
+              "step_distance": "598"
+            },
+            {
+              "instruction": "向东南行驶81米靠右",
+              "orientation": "东南",
+              "step_distance": "81"
+            },
+            {
+              "instruction": "向西南行驶1.2千米到达目的地",
+              "orientation": "西南",
+              "step_distance": "1178"
+            }
+          ]
+        },
+        {
+          "distance": "31842",
+          "restriction": "0",
+          "steps": [
+            {
+              "instruction": "向北行驶415米右转",
+              "orientation": "北",
+              "step_distance": "415"
+            },
+            {
+              "instruction": "向东行驶112米向左前方行驶",
+              "orientation": "东",
+              "step_distance": "112"
+            },
+            {
+              "instruction": "沿240省道向北行驶15.1千米左转",
+              "orientation": "北",
+              "road_name": "240省道",
+              "step_distance": "15084"
+            },
+            {
+              "instruction": "沿阳关大道向西行驶4.7千米直行进入中间岔道",
+              "orientation": "西",
+              "road_name": "阳关大道",
+              "step_distance": "4731"
+            },
+            {
+              "instruction": "向西行驶597米左转",
+              "orientation": "西",
+              "step_distance": "597"
+            },
+            {
+              "instruction": "沿文博东路向西南行驶5.8千米左转",
+              "orientation": "西南",
+              "road_name": "文博东路",
+              "step_distance": "5842"
+            },
+            {
+              "instruction": "沿鸣山南路向南行驶1.4千米右转",
+              "orientation": "南",
+              "road_name": "鸣山南路",
+              "step_distance": "1427"
+            },
+            {
+              "instruction": "向西行驶773米左转",
+              "orientation": "西",
+              "step_distance": "773"
+            },
+            {
+              "instruction": "向南行驶501米左转",
+              "orientation": "南",
+              "step_distance": "501"
+            },
+            {
+              "instruction": "向东行驶503米右转",
+              "orientation": "东",
+              "step_distance": "503"
+            },
+            {
+              "instruction": "向东行驶598米右转",
+              "orientation": "东",
+              "step_distance": "598"
+            },
+            {
+              "instruction": "向东南行驶81米靠右",
+              "orientation": "东南",
+              "step_distance": "81"
+            },
+            {
+              "instruction": "向西南行驶1.2千米到达目的地",
+              "orientation": "西南",
+              "step_distance": "1178"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "weather": {
+    "base": {
+      "status": "1",
+      "count": "1",
+      "info": "OK",
+      "infocode": "10000",
+      "lives": [
+        {
+          "province": "甘肃",
+          "city": "敦煌市",
+          "adcode": "620982",
+          "weather": "晴",
+          "temperature": "16",
+          "winddirection": "西南",
+          "windpower": "≤3",
+          "humidity": "19",
+          "reporttime": "2026-04-21 22:33:25",
+          "temperature_float": "16.0",
+          "humidity_float": "19.0"
+        }
+      ]
+    },
+    "forecast": {
+      "status": "1",
+      "count": "1",
+      "info": "OK",
+      "infocode": "10000",
+      "forecasts": [
+        {
+          "city": "敦煌市",
+          "adcode": "620982",
+          "province": "甘肃",
+          "reporttime": "2026-04-21 22:33:25",
+          "casts": [
+            {
+              "date": "2026-04-21",
+              "week": "2",
+              "dayweather": "多云",
+              "nightweather": "多云",
+              "daytemp": "22",
+              "nighttemp": "7",
+              "daywind": "北",
+              "nightwind": "北",
+              "daypower": "1-3",
+              "nightpower": "1-3",
+              "daytemp_float": "22.0",
+              "nighttemp_float": "7.0"
+            },
+            {
+              "date": "2026-04-22",
+              "week": "3",
+              "dayweather": "晴",
+              "nightweather": "晴",
+              "daytemp": "26",
+              "nighttemp": "7",
+              "daywind": "北",
+              "nightwind": "北",
+              "daypower": "1-3",
+              "nightpower": "1-3",
+              "daytemp_float": "26.0",
+              "nighttemp_float": "7.0"
+            },
+            {
+              "date": "2026-04-23",
+              "week": "4",
+              "dayweather": "晴",
+              "nightweather": "晴",
+              "daytemp": "25",
+              "nighttemp": "5",
+              "daywind": "北",
+              "nightwind": "北",
+              "daypower": "1-3",
+              "nightpower": "1-3",
+              "daytemp_float": "25.0",
+              "nighttemp_float": "5.0"
+            },
+            {
+              "date": "2026-04-24",
+              "week": "5",
+              "dayweather": "晴",
+              "nightweather": "多云",
+              "daytemp": "28",
+              "nighttemp": "7",
+              "daywind": "北",
+              "nightwind": "北",
+              "daypower": "1-3",
+              "nightpower": "1-3",
+              "daytemp_float": "28.0",
+              "nighttemp_float": "7.0"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "staticMap": {
+    "status": 200,
+    "contentType": "image/png;charset=UTF-8",
+    "size": 24596,
+    "savedTo": "D:\\lingfxu\\work_place\\project\\AI旅游log智能系统\\app\\frontend\\data\\test-staticmap.png"
+  }
+}

@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build / cache
+dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# Secrets & local env (keep *.example)
+.env
+.env.local
+.env.*.local
+!**/.env.example
+
+# Runtime data
+*.db
+*.sqlite
+data/
+**/uploads/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+*.log

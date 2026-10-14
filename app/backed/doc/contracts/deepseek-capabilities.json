@@ -1,0 +1,36 @@
+{
+  "basicChat": {
+    "content": "避开节假日，选择淡季（11月至次年4月）前往参观体验最佳。",
+    "usage": {
+      "output_tokens": 18,
+      "input_tokens": 26,
+      "total_tokens": 44,
+      "input_token_details": {
+        "cache_read": 0
+      },
+      "output_token_details": {}
+    }
+  },
+  "toolCalling": {
+    "content": "我来帮您查询敦煌的天气情况。",
+    "toolCalls": [
+      {
+        "name": "get_weather",
+        "args": {
+          "city": "敦煌"
+        },
+        "type": "tool_call",
+        "id": "call_00_5xJ9hzN5qh7UKQcG2Ho9qBFf"
+      }
+    ],
+    "hasToolCalls": true
+  },
+  "structuredOutput": {
+    "name": "莫高窟",
+    "description": "世界文化遗产，中国四大石窟之首，拥有千年佛教艺术瑰宝",
+    "time": "08:30",
+    "duration": 180,
+    "category": "景点",
+    "pitfallTip": "必须提前在官方公众号预约门票，旺季需提前1个月预订；洞窟内严禁拍照，违者罚款；建议选择A类票参观8个洞窟，包含数字展示中心"
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "health": {
+    "status": 200,
+    "body": {
+      "ok": true,
+      "uptime": 4644.8145704,
+      "now": "2026-04-21T16:58:08.334Z"
+    }
+  },
+  "profileCreate": {
+    "status": 200,
+    "body": {
+      "id": 1,
+      "nickname": "大漠行者",
+      "avatar": "🧭",
+      "totalTrips": 0,
+      "totalCities": 0,
+      "onboardingDone": 1
+    }
+  },
+  "profileGet": {
+    "status": 200,
+    "body": {
+      "id": 1,
+      "nickname": "大漠行者",
+      "avatar": "🧭",
+      "totalTrips": 0,
+      "totalCities": 0,
+      "onboardingDone": 1
+    }
+  },
+  "tripCreate": {
+    "status": 200,
+    "body": {
+      "id": 1,
+      "title": "敦煌测试行程",
+      "destination": "敦煌",
+      "startDate": "2026-04-25",
+      "endDate": "2026-04-27",
+      "coverEmoji": "🏜️",
+      "status": "planning",
+      "totalDays": 3
+    }
+  },
+  "tripGet": {
+    "status": 200,
+    "body": {
+      "id": 1,
+      "title": "敦煌测试行程",
+      "destination": "敦煌",
+      "startDate": "2026-04-25",
+      "endDate": "2026-04-27",
+      "coverEmoji": "🏜️",
+      "status": "planning",
+      "totalDays": 3
+    }
+  },
+  "tripList": {
+    "status": 200,
+    "body": [
+      {
+        "id": 1,
+        "title": "敦煌测试行程",
+        "destination": "敦煌",
+        "startDate": "2026-04-25",
+        "endDate": "2026-04-27",
+        "coverEmoji": "🏜️",
+        "status": "planning",
+        "totalDays": 3
+      }
+    ]
+  },
+  "nodeCreate": {
+    "status": 200,
+    "body": {
+      "id": 1,
+      "tripId": 1,
+      "name": "莫高窟",
+      "description": "世界文化遗产",
+      "scheduledTime": "08:30",
+      "duration": 180,
+      "lat": 40.042511,
+      "lng": 94.809374,
+      "status": "pending",
+      "order": 0,
+      "category": "景点",
+      "pitfallTip": "需预约",
+      "ticketInfo": "",
+      "day": 1
+    }
+  },
+  "nodeList": {
+    "status": 200,
+    "body": [
+      {
+        "id": 1,
+        "tripId": 1,
+        "name": "莫高窟",
+        "description": "世界文化遗产",
+        "scheduledTime": "08:30",
+        "duration": 180,
+        "lat": 40.042511,
+        "lng": 94.809374,
+        "status": "pending",
+        "order": 0,
+        "category": "景点",
+        "pitfallTip": "需预约",
+        "ticketInfo": "",
+        "day": 1
+      }
+    ]
+  },
+  "nodePatch": {
+    "status": 200,
+    "body": {
+      "id": 1,
+      "tripId": 1,
+      "name": "莫高窟",
+      "description": "世界文化遗产",
+      "scheduledTime": "08:30",
+      "duration": 180,
+      "lat": 40.042511,
+      "lng": 94.809374,
+      "status": "done",
+      "order": 0,
+      "category": "景点",
+      "pitfallTip": "需预约",
+      "ticketInfo": "",
+      "day": 1
+    }
+  },
+  "checkinCreate": {
+    "status": 200,
+    "body": {
+      "id": 1,
+      "nodeId": 1,
+      "tripId": 1,
+      "photos": "[\"/uploads/test.jpg\"]",
+      "caption": "打卡！",
+      "createdAt": "2026-04-21T16:58:08.379Z"
+    }
+  },
+  "checkinList": {
+    "status": 200,
+    "body": [
+      {
+        "id": 1,
+        "nodeId": 1,
+        "tripId": 1,
+        "photos": "[\"/uploads/test.jpg\"]",
+        "caption": "打卡！",
+        "createdAt": "2026-04-21T16:58:08.379Z"
+      }
+    ]
+  },
+  "tripDelete": {
+    "status": 204,
+    "body": null
+  },
+  "weather": {
+    "status": 200,
+    "body": {
+      "city": "敦煌市",
+      "adcode": "620982",
+      "casts": [
+        {
+          "date": "2026-04-22",
+          "week": "3",
+          "dayweather": "晴",
+          "nightweather": "晴",
+          "daytemp": "26",
+          "nighttemp": "7",
+          "daywind": "北",
+          "nightwind": "北",
+          "daypower": "1-3",
+          "nightpower": "1-3",
+          "daytemp_float": "26.0",
+          "nighttemp_float": "7.0"
+        },
+        {
+          "date": "2026-04-23",
+          "week": "4",
+          "dayweather": "晴",
+          "nightweather": "晴",
+          "daytemp": "25",
+          "nighttemp": "5",
+          "daywind": "北",
+          "nightwind": "北",
+          "daypower": "1-3",
+          "nightpower": "1-3",
+          "daytemp_float": "25.0",
+          "nighttemp_float": "5.0"
+        },
+        {
+          "date": "2026-04-24",
+          "week": "5",
+          "dayweather": "晴",
+          "nightweather": "多云",
+          "daytemp": "28",
+          "nighttemp": "7",
+          "daywind": "北",
+          "nightwind": "北",
+          "daypower": "1-3",
+          "nightpower": "1-3",
+          "daytemp_float": "28.0",
+          "nighttemp_float": "7.0"
+        },
+        {
+          "date": "2026-04-25",
+          "week": "6",
+          "dayweather": "多云",
+          "nightweather": "多云",
+          "daytemp": "27",
+          "nighttemp": "9",
+          "daywind": "北",
+          "nightwind": "北",
+          "daypower": "1-3",
+          "nightpower": "1-3",
+          "daytemp_float": "27.0",
+          "nighttemp_float": "9.0"
+        }
+      ]
+    }
+  },
+  "poiSearch": {
+    "status": 200,
+    "body": [
+      {
+        "id": "B03A90008I",
+        "name": "敦煌博物馆",
+        "address": "沙州镇鸣山北路1390号",
+        "location": "94.661690,40.129241",
+        "lat": 40.129241,
+        "lng": 94.66169,
+        "type": "科教文化服务;博物馆;博物馆",
+        "tel": "0937-8818173",
+        "rating": "4.7",
+        "openTime": "09:00-17:00",
+        "photos": [
+          "http://store.is.autonavi.com/showpic/ce5ae84d04d0ba9f7f237b866af3e867",
+          "http://store.is.autonavi.com/showpic/f45c6ba3eeef242cdb118fee5b2623af",
+          "http://store.is.autonavi.com/showpic/0451b268a1ad2afdad18d751bae2ce30"
+        ],
+        "adcode": "620982",
+        "cityname": "酒泉市"
+      },
+      {
+        "id": "B0FFKF8YDY",
+        "name": "敦煌世界地质公园博物馆",
+        "address": "敦煌世界地质公园雅丹景区内(东侧)",
+        "location": "93.240239,40.511029",
+        "lat": 40.511029,
+        "lng": 93.240239,
+        "type": "科教文化服务;科教文化场所;科教文化场所",
+        "tel": "0937-8841885",
+        "rating": "3.6",
+        "openTime": [],
+        "photos": [
+          "https://aos-comment.amap.com/B0FFKF8YDY/comment/content_media_external_file_27957_ss__1759985495956_12117195.jpg",
+          "https://aos-comment.amap.com/B0FFKF8YDY/comment/content_media_external_file_27972_ss__1759985495956_42969896.jpg",
+          "https://aos-comment.amap.com/B0FFKF8YDY/comment/content_media_external_file_27954_ss__1759985495964_26534515.jpg"
+        ],
+        "adcode": "620982",
+        "cityname": "酒泉市"
+      },
+      {
+        "id": "B0L3AZQK73",
+        "name": "月牙泉/博物馆",
+        "address": "三危路与揽月路交叉口北120米",
+        "location": "94.680025,40.141275",
+        "lat": 40.141275,
+        "lng": 94.680025,
+        "type": "科教文化服务;博物馆;博物馆",
+        "rating": "3.1",
+        "openTime": [],
+        "photos": [],
+        "adcode": "620982",
+        "cityname": "酒泉市"
+      }
+    ]
+  },
+  "staticMap": {
+    "status": 200,
+    "contentType": "image/png",
+    "size": 31530
+  },
+  "upload": {
+    "status": 200,
+    "body": {
+      "urls": [
+        "/uploads/1776790695089-2fu9zj.png",
+        "/uploads/1776790695089-ryyw39.png"
+      ],
+      "count": 2
+    }
+  }
+}

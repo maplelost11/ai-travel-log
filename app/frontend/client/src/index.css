@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================
+   敦煌旅行App — 色彩系统
+   灵感：敦煌壁画、沙漠、丝路
+   主色：沙丘金 + 莫高窟朱砂红 + 深夜蓝
+   ========================================== */
+
+:root {
+  --button-outline: rgba(0, 0, 0, 0.1);
+  --badge-outline: rgba(0, 0, 0, 0.05);
+  --opaque-button-border-intensity: -8;
+  --elevate-1: rgba(0, 0, 0, 0.03);
+  --elevate-2: rgba(0, 0, 0, 0.08);
+
+  /* 背景色系 — 敦煌壁画做旧黄 / 宣纸浅金 */
+  --background: 42 38% 91%;
+  --foreground: 28 40% 14%;
+
+  --card: 42 32% 94%;
+  --card-foreground: 28 40% 14%;
+  --card-border: 38 22% 80%;
+
+  --border: 38 20% 78%;
+  --input: 36 18% 72%;
+  --ring: 22 72% 38%;
+
+  --popover: 42 32% 93%;
+  --popover-foreground: 28 40% 14%;
+  --popover-border: 38 22% 80%;
+
+  /* 主色：朱砂红（保持不变）*/
+  --primary: 22 72% 40%;
+  --primary-foreground: 42 35% 97%;
+  --primary-border: hsl(22 72% 32%);
+
+  /* 次要色 — 旧绢底色 */
+  --secondary: 40 25% 84%;
+  --secondary-foreground: 28 35% 22%;
+  --secondary-border: hsl(38 18% 76%);
+
+  --muted: 40 22% 86%;
+  --muted-foreground: 30 12% 42%;
+
+  --accent: 32 55% 55%;
+  --accent-foreground: 38 30% 97%;
+
+  --destructive: 0 72% 42%;
+  --destructive-foreground: 0 0% 98%;
+
+  /* Sidebar */
+  --sidebar: 42 30% 89%;
+  --sidebar-foreground: 28 40% 14%;
+  --sidebar-border: 38 20% 78%;
+  --sidebar-primary: 22 72% 40%;
+  --sidebar-primary-foreground: 42 35% 97%;
+  --sidebar-accent: 40 22% 84%;
+  --sidebar-accent-foreground: 28 35% 18%;
+  --sidebar-ring: 22 72% 38%;
+  --sidebar-primary-border: hsl(22 72% 32%);
+  --sidebar-accent-border: hsl(38 18% 76%);
+
+  /* Chart */
+  --chart-1: 22 72% 40%;
+  --chart-2: 32 55% 55%;
+  --chart-3: 195 60% 38%;
+  --chart-4: 44 74% 49%;
+  --chart-5: 280 50% 48%;
+
+  --font-sans: 'Noto Sans SC', 'PingFang SC', 'Helvetica Neue', sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+  --radius: 0.75rem;
+
+  --shadow-2xs: 0px 1px 2px hsl(25 30% 10% / 0.06);
+  --shadow-xs: 0px 1px 3px hsl(25 30% 10% / 0.08);
+  --shadow-sm: 0px 2px 6px hsl(25 30% 10% / 0.08), 0px 1px 2px hsl(25 30% 10% / 0.06);
+  --shadow: 0px 4px 12px hsl(25 30% 10% / 0.1), 0px 1px 3px hsl(25 30% 10% / 0.06);
+  --shadow-md: 0px 6px 16px hsl(25 30% 10% / 0.12), 0px 2px 4px hsl(25 30% 10% / 0.06);
+  --shadow-lg: 0px 12px 28px hsl(25 30% 10% / 0.14), 0px 4px 8px hsl(25 30% 10% / 0.08);
+  --shadow-xl: 0px 20px 40px hsl(25 30% 10% / 0.16), 0px 8px 16px hsl(25 30% 10% / 0.08);
+  --shadow-2xl: 0px 32px 64px hsl(25 30% 10% / 0.2);
+
+  --tracking-normal: 0.01em;
+  --spacing: 0.25rem;
+}
+
+.dark {
+  --button-outline: rgba(255, 255, 255, 0.08);
+  --badge-outline: rgba(255, 255, 255, 0.04);
+  --opaque-button-border-intensity: 8;
+  --elevate-1: rgba(255, 255, 255, 0.02);
+  --elevate-2: rgba(255, 255, 255, 0.05);
+
+  /* 深夜模式 — 敦煌夜色 */
+  --background: 225 25% 8%;
+  --foreground: 38 20% 88%;
+
+  --card: 225 22% 11%;
+  --card-foreground: 38 20% 88%;
+  --card-border: 225 15% 18%;
+
+  --border: 225 15% 18%;
+  --input: 225 12% 22%;
+  --ring: 32 80% 55%;
+
+  --popover: 225 22% 12%;
+  --popover-foreground: 38 20% 88%;
+  --popover-border: 225 15% 18%;
+
+  --primary: 32 80% 55%;
+  --primary-foreground: 225 25% 8%;
+  --primary-border: hsl(32 80% 45%);
+
+  --secondary: 225 18% 18%;
+  --secondary-foreground: 38 20% 80%;
+  --secondary-border: hsl(225 15% 22%);
+
+  --muted: 225 18% 16%;
+  --muted-foreground: 38 8% 55%;
+
+  --accent: 32 70% 50%;
+  --accent-foreground: 225 25% 8%;
+
+  --destructive: 0 65% 55%;
+  --destructive-foreground: 0 0% 98%;
+
+  --sidebar: 225 25% 10%;
+  --sidebar-foreground: 38 20% 88%;
+  --sidebar-border: 225 15% 18%;
+  --sidebar-primary: 32 80% 55%;
+  --sidebar-primary-foreground: 225 25% 8%;
+  --sidebar-accent: 225 18% 18%;
+  --sidebar-accent-foreground: 38 20% 80%;
+  --sidebar-ring: 32 80% 55%;
+  --sidebar-primary-border: hsl(32 80% 45%);
+  --sidebar-accent-border: hsl(225 15% 22%);
+
+  --chart-1: 32 80% 55%;
+  --chart-2: 44 74% 55%;
+  --chart-3: 195 60% 48%;
+  --chart-4: 22 72% 60%;
+  --chart-5: 280 50% 58%;
+
+  --shadow-2xs: 0px 1px 2px hsl(0 0% 0% / 0.2);
+  --shadow-xs: 0px 1px 3px hsl(0 0% 0% / 0.25);
+  --shadow-sm: 0px 2px 6px hsl(0 0% 0% / 0.28), 0px 1px 2px hsl(0 0% 0% / 0.2);
+  --shadow: 0px 4px 12px hsl(0 0% 0% / 0.32), 0px 1px 3px hsl(0 0% 0% / 0.2);
+  --shadow-md: 0px 6px 16px hsl(0 0% 0% / 0.36), 0px 2px 4px hsl(0 0% 0% / 0.2);
+  --shadow-lg: 0px 12px 28px hsl(0 0% 0% / 0.4), 0px 4px 8px hsl(0 0% 0% / 0.24);
+  --shadow-xl: 0px 20px 40px hsl(0 0% 0% / 0.44), 0px 8px 16px hsl(0 0% 0% / 0.28);
+  --shadow-2xl: 0px 32px 64px hsl(0 0% 0% / 0.5);
+}
+
+/* ==========================================
+   Base Styles
+   ========================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+  text-size-adjust: none;
+}
+
+body {
+  min-height: 100dvh;
+  line-height: 1.6;
+  font-family: var(--font-sans);
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ==========================================
+   手机模拟器框架
+   ========================================== */
+.phone-frame {
+  width: 390px;
+  min-height: 844px;
+  height: 844px;
+  border-radius: 44px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 
+    0 0 0 2px hsl(225 15% 22%),
+    0 0 0 6px hsl(225 25% 14%),
+    0 40px 80px hsl(0 0% 0% / 0.5);
+  background: hsl(var(--background));
+}
+
+/* ==========================================
+   骨架屏动画
+   ========================================== */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    hsl(var(--muted)) 25%,
+    hsl(var(--secondary)) 50%,
+    hsl(var(--muted)) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: 6px;
+}
+
+/* ==========================================
+   AI生成加载动画
+   ========================================== */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+.ai-dot { animation: pulse-dot 1.2s ease-in-out infinite; }
+.ai-dot:nth-child(2) { animation-delay: 0.2s; }
+.ai-dot:nth-child(3) { animation-delay: 0.4s; }
+
+/* ==========================================
+   底部导航栏
+   ========================================== */
+.bottom-nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: hsl(var(--card));
+  border-top: 1px solid rgba(200,150,48,0.18);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 16px;
+  z-index: 50;
+  /* 允许图标突破边框 */
+  overflow: visible;
+  clip-path: none;
+}
+
+/* 莲花中央按钮 — 光晕脉动动画 */
+@keyframes lotus-pulse {
+  0%, 100% { filter: drop-shadow(0 0 4px rgba(200,150,48,0.4)) drop-shadow(0 0 10px rgba(200,150,48,0.2)); }
+  50% { filter: drop-shadow(0 0 8px rgba(200,150,48,0.7)) drop-shadow(0 0 18px rgba(200,150,48,0.35)); }
+}
+
+[data-testid="nav-add"] svg {
+  animation: lotus-pulse 2.8s ease-in-out infinite;
+}
+
+/* 活跃导航图标 — 呼吸光晕 */
+@keyframes icon-glow {
+  0%, 100% { filter: drop-shadow(0 0 4px rgba(200,150,48,0.5)); }
+  50% { filter: drop-shadow(0 0 9px rgba(200,150,48,0.8)); }
+}
+
+[data-testid="nav-trips"] svg[style*="drop-shadow(0 0 6px"],
+[data-testid="nav-profile"] svg[style*="drop-shadow(0 0 6px"] {
+  animation: icon-glow 2.5s ease-in-out infinite;
+}
+
+/* ==========================================
+   节点画布
+   ========================================== */
+@keyframes node-complete {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+.node-complete-anim { animation: node-complete 0.3s ease; }
+
+/* ==========================================
+   引导页动画
+   ========================================== */
+@keyframes float-up {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.onboard-enter { animation: float-up 0.6s ease forwards; }
+.onboard-enter-delay-1 { animation: float-up 0.6s 0.15s ease forwards; opacity: 0; }
+.onboard-enter-delay-2 { animation: float-up 0.6s 0.3s ease forwards; opacity: 0; }
+.onboard-enter-delay-3 { animation: float-up 0.6s 0.45s ease forwards; opacity: 0; }
+
+@keyframes sand-drift {
+  0% { transform: translateX(0) translateY(0); opacity: 0.4; }
+  50% { transform: translateX(8px) translateY(-4px); opacity: 0.7; }
+  100% { transform: translateX(0) translateY(0); opacity: 0.4; }
+}
+
+.sand-particle { animation: sand-drift 4s ease-in-out infinite; }
+.sand-particle:nth-child(2) { animation-delay: 1s; }
+.sand-particle:nth-child(3) { animation-delay: 2s; }
+
+/* ==========================================
+   地图节点连线
+   ========================================== */
+.route-line {
+  stroke-dasharray: 6 4;
+  animation: dash-move 1.5s linear infinite;
+}
+
+@keyframes dash-move {
+  to { stroke-dashoffset: -20; }
+}
+
+/* ==========================================
+   滑动抽屉
+   ========================================== */
+@keyframes slide-up {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+.slide-up { animation: slide-up 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+
+/* ==========================================
+   AI文字流式输出
+   ========================================== */
+@keyframes type-cursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typing-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background: hsl(var(--primary));
+  margin-left: 2px;
+  animation: type-cursor 0.8s ease infinite;
+  vertical-align: text-bottom;
+}

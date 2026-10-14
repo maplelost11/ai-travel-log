@@ -1,0 +1,116 @@
+{
+  "tables": [
+    "checkins",
+    "nodes",
+    "sqlite_sequence",
+    "trips",
+    "user_profile"
+  ],
+  "crud": {
+    "createdTrip": {
+      "id": 1,
+      "title": "敦煌3日深度游",
+      "destination": "敦煌",
+      "startDate": "2026-04-24",
+      "endDate": "2026-04-26",
+      "coverEmoji": "🏜️",
+      "status": "planning",
+      "totalDays": 3
+    },
+    "createdNodes": [
+      {
+        "id": 1,
+        "tripId": 1,
+        "name": "莫高窟",
+        "description": "世界文化遗产",
+        "scheduledTime": "08:30",
+        "duration": 180,
+        "lat": 40.042511,
+        "lng": 94.809374,
+        "status": "pending",
+        "order": 0,
+        "category": "景点",
+        "pitfallTip": "需提前预约",
+        "ticketInfo": "",
+        "day": 1
+      },
+      {
+        "id": 2,
+        "tripId": 1,
+        "name": "鸣沙山月牙泉",
+        "description": "5A景区",
+        "scheduledTime": "15:00",
+        "duration": 180,
+        "lat": 40.088833,
+        "lng": 94.680396,
+        "status": "pending",
+        "order": 1,
+        "category": "景点",
+        "pitfallTip": "",
+        "ticketInfo": "",
+        "day": 1
+      }
+    ],
+    "updatedNode": {
+      "id": 1,
+      "tripId": 1,
+      "name": "莫高窟",
+      "description": "世界文化遗产",
+      "scheduledTime": "08:30",
+      "duration": 180,
+      "lat": 40.042511,
+      "lng": 94.809374,
+      "status": "done",
+      "order": 0,
+      "category": "景点",
+      "pitfallTip": "需提前预约",
+      "ticketInfo": "",
+      "day": 1
+    },
+    "createdCheckin": {
+      "id": 1,
+      "nodeId": 1,
+      "tripId": 1,
+      "photos": "[\"/uploads/test1.jpg\",\"/uploads/test2.jpg\"]",
+      "caption": "打卡莫高窟！",
+      "createdAt": "2026-04-21T15:17:30.845Z"
+    },
+    "createdProfile": {
+      "id": 1,
+      "nickname": "大漠行者",
+      "avatar": "🧭",
+      "totalTrips": 0,
+      "totalCities": 0,
+      "onboardingDone": 1
+    },
+    "deleteWorks": true
+  },
+  "zodSchema": {
+    "validTripPasses": true,
+    "invalidTripFails": true,
+    "tripSchemaShape": [
+      "title",
+      "destination",
+      "startDate",
+      "endDate",
+      "coverEmoji",
+      "status",
+      "totalDays"
+    ],
+    "nodeSchemaShape": [
+      "tripId",
+      "name",
+      "description",
+      "scheduledTime",
+      "duration",
+      "lat",
+      "lng",
+      "status",
+      "order",
+      "category",
+      "pitfallTip",
+      "ticketInfo",
+      "day"
+    ]
+  }
+}

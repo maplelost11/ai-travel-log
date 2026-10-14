@@ -1,0 +1,22 @@
+{
+  "upload": {
+    "response": {
+      "urls": [
+        "/uploads/1776784085390-n1zmof.png",
+        "/uploads/1776784085391-rjad3e.png"
+      ],
+      "count": 2
+    },
+    "filesOnDisk": [
+      "1776784085390-n1zmof.png",
+      "1776784085391-rjad3e.png"
+    ],
+    "success": true
+  },
+  "staticMapProxy": {
+    "status": 200,
+    "contentType": "image/png",
+    "size": 54699,
+    "success": true
+  }
+}

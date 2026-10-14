@@ -1,0 +1,44 @@
+{
+  "name": "ai-travel-log-backend",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch server/index.ts",
+    "start": "node dist/index.cjs",
+    "build": "tsx script/build.ts",
+    "check": "tsc --noEmit",
+    "db:push": "drizzle-kit push",
+    "verify:amap": "tsx scripts/verify-amap.ts",
+    "verify:deepseek": "tsx scripts/verify-deepseek.ts",
+    "verify:agent": "tsx scripts/verify-agent.ts",
+    "verify:db": "tsx scripts/verify-db.ts",
+    "verify:upload": "tsx scripts/verify-upload.ts",
+    "verify:all": "tsx scripts/verify-amap.ts && tsx scripts/verify-deepseek.ts && tsx scripts/verify-db.ts && tsx scripts/verify-upload.ts && tsx scripts/verify-agent.ts"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.40",
+    "@langchain/deepseek": "^1.0.24",
+    "better-sqlite3": "^11.7.0",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.39.3",
+    "drizzle-zod": "^0.7.0",
+    "express": "^5.0.1",
+    "express-session": "^1.18.1",
+    "langchain": "^1.3.3",
+    "memorystore": "^1.6.7",
+    "multer": "^2.1.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.0",
+    "@types/multer": "^2.1.0",
+    "@types/node": "20.19.27",
+    "drizzle-kit": "^0.31.8",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.20.5",
+    "typescript": "5.6.3"
+  }
+}
